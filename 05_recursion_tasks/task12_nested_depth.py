@@ -32,5 +32,5 @@ def nested_depth_second_way(nested_list):
   else:
     return depth_rest
   
-lst = [1, [2, [3, [4]]]]   
+lst = [[1,5], [2, [[3,[8]], [4]]], [5,7,8]]   
 print(nested_depth_second_way(lst))
